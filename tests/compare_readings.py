@@ -32,10 +32,10 @@ def score(case, tokens):
             normalized.append(reading)
         else:
             parts.append(surface)
-            normalized.append(surface)
+            normalized.append(hira(surface))
     output = "".join(parts)
     return {"output": output, "exact": output == case["expected"],
-            "reading": "".join(normalized), "tokens": tokens,
+            "reading": "".join(normalized), "reading_match": "".join(normalized) == case["expected_reading"], "tokens": tokens,
             "source_preserved": "".join(t["surface"] for t in tokens) == case["text"]}
 
 def kuromoji(cases):
@@ -87,6 +87,7 @@ def main():
             results = [{**case, **score(case,tokens)} for case,tokens in zip(cases,raw["rows"])]
             report[name] = {"load_ms":raw["load_ms"],"tokenize_ms":raw["tokenize_ms"],
                             "exact_matches":sum(r["exact"] for r in results),
+                            "reading_matches":sum(r["reading_match"] for r in results),
                             "total":len(results),"cases":results}
         except Exception as exc:
             report[name] = {"error":str(exc)}
