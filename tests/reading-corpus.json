@@ -2,96 +2,115 @@
   {
     "text": "神羅天征",
     "expected": "神羅天征（しんらてんせい）",
-    "category": "anime"
+    "category": "anime",
+    "expected_reading": "しんらてんせい"
   },
   {
     "text": "地爆天星",
     "expected": "地爆天星（ちばくてんせい）",
-    "category": "anime"
+    "category": "anime",
+    "expected_reading": "ちばくてんせい"
   },
   {
     "text": "万象天引",
     "expected": "万象天引（ばんしょうてんいん）",
-    "category": "anime"
+    "category": "anime",
+    "expected_reading": "ばんしょうてんいん"
   },
   {
     "text": "月牙天衝",
     "expected": "月牙天衝（げつがてんしょう）",
-    "category": "anime"
+    "category": "anime",
+    "expected_reading": "げつがてんしょう"
   },
   {
     "text": "領域展開",
     "expected": "領域展開（りょういきてんかい）",
-    "category": "anime"
+    "category": "anime",
+    "expected_reading": "りょういきてんかい"
   },
   {
     "text": "無量空処",
     "expected": "無量空処（むりょうくうしょ）",
-    "category": "anime"
+    "category": "anime",
+    "expected_reading": "むりょうくうしょ"
   },
   {
     "text": "霹靂一閃",
     "expected": "霹靂一閃（へきれきいっせん）",
-    "category": "anime"
+    "category": "anime",
+    "expected_reading": "へきれきいっせん"
   },
   {
     "text": "御坂美琴",
     "expected": "御坂美琴（みさかみこと）",
-    "category": "name"
+    "category": "name",
+    "expected_reading": "みさかみこと"
   },
   {
     "text": "初音ミク",
     "expected": "初音（はつね）ミク",
-    "category": "name"
+    "category": "name",
+    "expected_reading": "はつねみく"
   },
   {
     "text": "原神",
     "expected": "原神（げんしん）",
-    "category": "game"
+    "category": "game",
+    "expected_reading": "げんしん"
   },
   {
     "text": "日本語",
     "expected": "日本語（にほんご）",
-    "category": "common"
+    "category": "common",
+    "expected_reading": "にほんご"
   },
   {
     "text": "半導体",
     "expected": "半導体（はんどうたい）",
-    "category": "common"
+    "category": "common",
+    "expected_reading": "はんどうたい"
   },
   {
     "text": "施工管理",
     "expected": "施工管理（せこうかんり）",
-    "category": "technical"
+    "category": "technical",
+    "expected_reading": "せこうかんり"
   },
   {
     "text": "人気がある",
     "expected": "人気（にんき）がある",
-    "category": "context"
+    "category": "context",
+    "expected_reading": "にんきがある"
   },
   {
     "text": "人気のない路地",
     "expected": "人気（ひとけ）のない路地（ろじ）",
-    "category": "context"
+    "category": "context",
+    "expected_reading": "ひとけのないろじ"
   },
   {
     "text": "一日で終わる",
     "expected": "一日（いちにち）で終わる（おわる）",
-    "category": "context"
+    "category": "context",
+    "expected_reading": "いちにちでおわる"
   },
   {
     "text": "四月一日に入社する",
     "expected": "四月（しがつ）一日（ついたち）に入社（にゅうしゃ）する",
-    "category": "context"
+    "category": "context",
+    "expected_reading": "しがつついたちににゅうしゃする"
   },
   {
     "text": "食べる",
     "expected": "食べる（たべる）",
-    "category": "okurigana"
+    "category": "okurigana",
+    "expected_reading": "たべる"
   },
   {
     "text": "申し込む",
     "expected": "申し込む（もうしこむ）",
-    "category": "okurigana"
+    "category": "okurigana",
+    "expected_reading": "もうしこむ"
   }
 ]
